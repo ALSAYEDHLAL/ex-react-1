@@ -1,0 +1,21 @@
+.line {
+    background-color: #1a252f;
+}
+h2 {
+    color: #1a252f;
+}
+ .layer i {
+    display: none ;
+    transition: all 1s ease-in;
+ }
+ .layer:hover i {
+    display: block;
+ }
+ .layer {
+    transition: all 0.5s ease-in;
+ }
+ .layer:hover {
+    background-color: #1abc9ce6;
+    opacity: 1;
+    cursor: pointer;
+ }
